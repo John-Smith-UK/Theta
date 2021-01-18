@@ -1,4 +1,4 @@
-	<!-- Theta 1.1 by Hector -->
+	<!-- Theta 1.2 by Hector -->
 	<!-- Thanks to P1ch3, wraith (for code snippets), UNAVOWED and Rafael for assistance -->
 	<!-- Thanks to the CORE Team for a solid base to build on -->
 
@@ -13,8 +13,8 @@
 	<sound type="select" src="sounds/select.wav" />
 
 	<!-- Main Menu -->
-	<menu menuIndex="0" type="custom" imageType="logo" scrollTime=".25" scrollAcceleration=".1" minScrollTime=".05" orientation="horizontal" x="0" width="center" y="center">
-		<itemDefaults alpha="1" x="center" y="1010" width="400" maxHeight="175" xOrigin="center" yOrigin="center" layer="7" />
+	<menu menuIndex="0" type="custom" imageType="logo" scrollTime=".25" scrollAcceleration=".1" minScrollTime=".05" orientation="horizontal">
+		<itemDefaults alpha="1" x="center" y="1010" width="300" xOrigin="center" yOrigin="center" reflection="bottom" reflectionDistance=".01" reflectionScale="1" reflectionAlpha=".1" layer="7" />
 		<item xOffset="-1440" alpha="0" />
 		<item xOffset="-1440" >
 			<onMenuExit menuIndex="0" >
@@ -37,7 +37,7 @@
 				</set>
 			</onMenuExit>
 		</item>
-		<item xOffset="0" selected="true" >
+		<item xOffset="0" selected="true" width="700" >
 			<onMenuExit menuIndex="0" >
 				<set duration=".001">
 					<animate type="alpha" to="0" />
@@ -784,7 +784,7 @@
 
 	<!-- Menu (Logo) -->
 	<menu menuIndex="1" type="custom" imageType="logo" scrollTime=".25" scrollAcceleration=".1" minScrollTime=".05" orientation="horizontal" x="0" width="center" y="center">
-		<itemDefaults alpha="1" x="0" y="1010" width="400" maxHeight="120" xOrigin="center" yOrigin="center" layer="8" />
+		<itemDefaults alpha="1" x="0" y="1010" width="300" maxHeight="100" xOrigin="center" yOrigin="center" layer="8" />
 		<item xOffset="-180" alpha="0" />
 		<item xOffset="-180" >
 			<onMenuEnter menuIndex="1" >
