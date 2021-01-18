@@ -1,3 +1,6 @@
+Version 1.2:
+Cosmetic changes/Updated for the Hacks systems
+
 Version 1.1:
 Updated due to changes in retrofe 0.10.2
 
